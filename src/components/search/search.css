@@ -1,0 +1,72 @@
+.search{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+.searchBox{
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+h4.title {
+    font-size: 31px;
+    font-family: sans-serif;
+    color: #6a6a6a;
+    margin-bottom: 30px;
+}
+.userSearchInputBox input {
+    border: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(222, 89, 7), rgb(9, 209, 156)) 1;
+    width: 100%;
+    height: 45px;
+    padding: 10px 15px;
+    margin-bottom:20px;
+    color : #6a6a6a;
+    font-size: 15px;
+}
+.userSearchInputBox input::placeholder{
+    font-size: 15px;
+    color : #6a6a6a;
+    font-family: 'Times New Roman', Times, serif;
+}
+.userSearchInputBox input:focus{
+    outline: none;
+}
+
+.searchBtn{
+  border:2px solid coral;
+  background-color: coral;
+  color : #f6f6f6;
+  padding : 5px 20px;
+  border-radius: 5px;
+  transition: 350ms ease-in-out;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.searchBtn:hover{
+    color : coral;
+    background-color: #f6f6f6;
+}
+.searchSuggestionBox {
+    box-shadow: 0px 0px 6px -1px #00000054;
+    
+}
+.searchSuggestionBox ul{
+    list-style: none;
+}
+
+.searchSuggestionBox ul li{
+  padding: 10px 20px;
+  border-bottom: 2px solid #6c6c6c17;
+  cursor: pointer;
+  color : #6a6a6a;
+  font-size: 15px;
+}   
