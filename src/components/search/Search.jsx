@@ -14,7 +14,7 @@ const Search = () => {
 
 
   const whenKeyDown = (e) => {
-    let userInput = e.target.value;
+    let userInput = e.target.value.toLocaleLowerCase();
 
     let filter = suggestions.filter((val) => {
       return val.toLocaleLowerCase().startsWith(userInput);
